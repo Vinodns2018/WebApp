@@ -23,9 +23,9 @@ public class cancelpage extends HttpServlet {
 					
 								
 					//Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
-					Statement statement = connection.createStatement();
-					String sql= "SELECT  * FROM avt;";
-					ResultSet rs= statement.executeQuery(sql);
+					//Statement statement = connection.createStatement();
+					//String sql= "SELECT  * FROM avt;";
+					//ResultSet rs= statement.executeQuery(sql);
 					        out.println("<html>");
 							out.println("<head>");
 							out.println("<title>Repair Page</title>");
