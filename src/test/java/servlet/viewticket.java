@@ -64,15 +64,17 @@ public class viewticket extends HttpServlet {
 						String cont=rs.getString("cont");
 						String date=rs.getString("datee");
 						String stat=rs.getString("statuss");
-						out.println("<tr>");
+						
+					}*/
+			
+			out.println("<tr>");
 						out.println("<th>"+tn+"</th>");
 						out.println("<th>"+prod+"</th>");
 						out.println("<th>"+pd+"</th>");
 						out.println("<th>"+cont+"</th>");
 						out.println("<th>"+date+"</th>");
 						out.println("<th>"+stat+"</th>");
-						out.println("</tr>");
-					}*/
+						out.println("</tr>"); ---------
 					out.println("<table>");
 		}
 		catch(ClassNotFoundException cnfe)
