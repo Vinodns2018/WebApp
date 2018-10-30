@@ -84,7 +84,7 @@ public class viewticket extends HttpServlet {
 			out.println("class not found");
 		}
 		}
-	//catch(SQLException e)
+	catch(SQLException e)
 	{
 	throw new RuntimeException("Cannot connect the database!", e);		
 		}
