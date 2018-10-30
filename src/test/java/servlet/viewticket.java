@@ -59,12 +59,12 @@ public class viewticket extends HttpServlet {
 					
 					while(rs.next())
 					{
-						String tn=rs.getString("tnum");
-						String prod=rs.getString("product");
-						String pd=rs.getString("pdesc");
-						String cont=rs.getString("cont");
-						String date=rs.getString("datee");
-						String stat=rs.getString("statuss"); 
+// 						String tn=rs.getString("tnum");
+// 						String prod=rs.getString("product");
+// 						String pd=rs.getString("pdesc");
+// 						String cont=rs.getString("cont");
+// 						String date=rs.getString("datee");
+// 						String stat=rs.getString("statuss"); 
 						out.println("<tr>");
 						out.println("<th>"+tn+"</th>");
 						out.println("<th>"+prod+"</th>");
