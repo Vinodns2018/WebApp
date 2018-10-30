@@ -22,7 +22,7 @@ public class cancelpage extends HttpServlet {
 					String password="";
 					
 								
-					Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
+					//Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
 					Statement statement = connection.createStatement();
 					String sql= "SELECT  * FROM avt;";
 					ResultSet rs= statement.executeQuery(sql);
