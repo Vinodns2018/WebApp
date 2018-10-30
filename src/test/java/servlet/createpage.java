@@ -23,7 +23,7 @@ public class createpage extends HttpServlet {
 		
 						
 			//Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
-			Statement statement = connection.createStatement();
+			//Statement statement = connection.createStatement();
 			
 			String a=req.getParameter("product");
 			String b=req.getParameter("problemdescription");
@@ -32,10 +32,10 @@ public class createpage extends HttpServlet {
 			String e=req.getParameter("status");
 			
 			String sql= "INSERT INTO avt(product, pdesc, cont, datee, statuss ) VALUES ('"+a+"', '"+b+"','"+c+"','"+d+"','"+e+"' ) RETURNING *;";
-			ResultSet rs1= statement.executeQuery(sql);
+			//ResultSet rs1= statement.executeQuery(sql);
 			
 			String sql1= "SELECT  * FROM avt;";
-			ResultSet rs= statement.executeQuery(sql1);
+			//ResultSet rs= statement.executeQuery(sql1);
 			
 			
 			        out.println("<html>");
