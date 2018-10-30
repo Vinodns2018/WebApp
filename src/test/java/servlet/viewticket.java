@@ -48,7 +48,7 @@ public class viewticket extends HttpServlet {
 					
 					out.println("<div style="+"overflow-x:auto;"+">");
 					out.println("<table>");
-					out.println("<tr>");
+					/*out.println("<tr>");
 					out.println("<th style="+"color:#9a965b;"+">Ticket ID</th>");
 					out.println("<th style="+"color:#9a965b;"+">Products</th>");
 					out.println("<th style="+"color:#9a965b;"+">Problem Description</th>");
@@ -56,7 +56,8 @@ public class viewticket extends HttpServlet {
 					out.println("<th style="+"color:#9a965b;"+">Date</th>");
 					out.println("<th style="+"color:#9a965b;"+">Status</th>");
 					out.println("</tr>");
-					/*while(rs.next())
+					
+					while(rs.next())
 					{
 						String tn=rs.getString("tnum");
 						String prod=rs.getString("product");
@@ -64,17 +65,18 @@ public class viewticket extends HttpServlet {
 						String cont=rs.getString("cont");
 						String date=rs.getString("datee");
 						String stat=rs.getString("statuss");
-						
-					}*/
-			
-			out.println("<tr>");
+						out.println("<tr>");
 						out.println("<th>"+tn+"</th>");
 						out.println("<th>"+prod+"</th>");
 						out.println("<th>"+pd+"</th>");
 						out.println("<th>"+cont+"</th>");
 						out.println("<th>"+date+"</th>");
 						out.println("<th>"+stat+"</th>");
-						out.println("</tr>"); ---------
+						out.println("</tr>");
+						
+					}*/
+			
+		
 					out.println("<table>");
 		}
 		catch(ClassNotFoundException cnfe)
