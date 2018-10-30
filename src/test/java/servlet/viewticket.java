@@ -48,7 +48,7 @@ public class viewticket extends HttpServlet {
 					
 					out.println("<div style="+"overflow-x:auto;"+">");
 					out.println("<table>");
-					/*out.println("<tr>");
+					out.println("<tr>");
 					out.println("<th style="+"color:#9a965b;"+">Ticket ID</th>");
 					out.println("<th style="+"color:#9a965b;"+">Products</th>");
 					out.println("<th style="+"color:#9a965b;"+">Problem Description</th>");
@@ -57,7 +57,7 @@ public class viewticket extends HttpServlet {
 					out.println("<th style="+"color:#9a965b;"+">Status</th>");
 					out.println("</tr>");
 					
-					while(rs.next())
+					/*while(rs.next())
 					{
 						String tn=rs.getString("tnum");
 						String prod=rs.getString("product");
@@ -84,10 +84,10 @@ public class viewticket extends HttpServlet {
 			out.println("class not found");
 		}
 		}
-	/*catch(SQLException e)
+	catch(SQLException e)
 	{
 	throw new RuntimeException("Cannot connect the database!", e);		
-		}*/
+		}
 	}
 	
 	
