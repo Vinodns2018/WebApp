@@ -70,7 +70,7 @@ public class createpage extends HttpServlet {
 					out.println("<th style="+"color:#9a965b;"+">Date</th>");
 					out.println("<th style="+"color:#9a965b;"+">Status</th>");
 					out.println("</tr>");
-					while(rs.next())
+					/*while(rs.next())
 					{
 						String tn=rs.getString("tnum");
 						String prod=rs.getString("product");
@@ -86,7 +86,7 @@ public class createpage extends HttpServlet {
 						out.println("<th>"+date+"</th>");
 						out.println("<th>"+stat+"</th>");
 						out.println("</tr>");
-					}
+					}*/
 					System.out.println("Crete Ticket Unit Test Passed");
 					out.println("<table>");
 		}
