@@ -22,7 +22,7 @@ public class createpage extends HttpServlet {
 			String password="";
 		
 						
-			Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
+			//Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
 			Statement statement = connection.createStatement();
 			
 			String a=req.getParameter("product");
